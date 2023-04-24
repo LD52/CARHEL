@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    height : 100rem;
+    padding: 4rem;
+}
+
+.voyages{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+
+.div-voyages{
+    width: 45%; 
+    height: 50%;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+
+
+.img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.txt{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
